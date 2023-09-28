@@ -1,0 +1,51 @@
+
+body {
+  color: #da1212;
+
+}
+
+h1 {
+  text-align: center;
+  pointer-events: none;
+}
+
+.bord{
+  width: 700px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 150px);
+  border: 1px solid black
+}
+
+.hole {
+  background-color: black;
+  border: 3px solid red;
+  border-radius: 50%;
+  margin: 5px 5px;
+  display: flex;
+  justify-content: start;
+  align-content: baseline;
+}
+
+img {
+  margin: auto;
+}
+img:hover {
+  pointer-events: auto;
+  cursor: url('../images/ham.png'), auto;
+}
+
+.gameInfo {
+  pointer-events: none;
+  width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 24px;
+}
+
+p {
+  display: inline;
+}
+
